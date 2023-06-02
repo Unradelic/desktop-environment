@@ -4,6 +4,8 @@ A test designed to replicate a desktop experience on the web. It could be widely
 
 As a bonus, you can find some little apps in there!
 
+See in action: https://unradelic.github.io/desktop-environment/
+
 ## Credits:
 
 * Tippy.js — https://github.com/atomiks/tippyjs
