@@ -155,7 +155,7 @@ function newWindow(title, options, type, content) {
 		content = '<iframe class="_env_window-content-iframe" src="' + content + '" style="width: 100%; height: 100%;"></iframe>';
 	}
 	else if (type == 'mp3') {
-		content = '<iframe class="_env_window-content-iframe" src="audio-files/' + content + '" style="width: 100%; height: 100%;"></iframe>';
+		content = '<iframe class="_env_window-content-iframe" src="' + content + '" style="width: 100%; height: 100%;"></iframe>';
 	}
 	else if (type == 'python') {
 		preContent = '<div class="_env_window-content-terminal">';
