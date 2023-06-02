@@ -48,7 +48,7 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-    background-image: url('/desktop-environment/src/bckg01.jpg');
+    background-image: url('src/bckg01.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -71,7 +71,7 @@ body {
     width: 55px;
     height: 55px;
     border-radius: 10px;
-    background-image: url('/desktop-environment/src/apps.png');
+    background-image: url('src/apps.png');
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
@@ -239,22 +239,22 @@ body {
 
 /* Desktop icon file types */
 ._env_desktop-icon-pdf {
-    background-image: url('/desktop-environment/src/pdf.png');
+    background-image: url('src/pdf.png');
 }
 
 ._env_desktop-icon-godot {
-    background-image: url('/desktop-environment/src/godot.png');
+    background-image: url('src/godot.png');
 }
 
 ._env_desktop-icon-web {
-    background-image: url('/desktop-environment/src/url.png');
+    background-image: url('src/url.png');
 }
 
 ._env_desktop-icon-chess {
-    background-image: url('/desktop-environment/chess/favicon.ico');
+    background-image: url('chess/favicon.ico');
 }
 ._env_desktop-icon-mp3 {
-    background-image: url('/desktop-environment/src/mp3.png');
+    background-image: url('src/mp3.png');
 }
 
 /* Window Canvas */
@@ -415,5 +415,5 @@ body {
     font-family: 'FontAwesome';
     font-weight: normal;
     font-style: normal;
-    src: url('/desktop-environment/src/fa-regular-400.ttf') format('truetype');
+    src: url('src/fa-regular-400.ttf') format('truetype');
 }
