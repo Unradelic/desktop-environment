@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="lib/popper.min.js"></script>
+	<script src="lib/tippy.min.js"></script>
+	<script src="lib/sortable.min.js"></script>
+	<script src="desktop-env.js"></script>
+	<title>Desktop Environment</title>
+</head>
+<body>
+	<div id="desktop" class="_env_desktop">
+		
+		<div class="_env_desktop-element" ftype="mp3" fname="Psytrosphere.mp3" wsize="860,720" wpos="center" fcontent="Psytrosphere.mp3">
+			<div class="_env_desktop-element-image _env_desktop-icon-mp3"></div>
+			<p class="_env_desktop-element-title">Psytrosphere.mp3</p>
+		</div>
+		
+		<div class="_env_desktop-element" ftype="web" fname="Feel Life Music" wsize="430,820" wpos="center" fcontent="https://feellifemusic.com/">
+			<div class="_env_desktop-element-image _env_desktop-icon-web"></div>
+			<p class="_env_desktop-element-title">Feel Life Music</p>
+		</div>
+		
+		<div class="_env_desktop-element" ftype="web" fname="Enver" wsize="1280,720" wpos="center" fcontent="https://enver.es/">
+			<div class="_env_desktop-element-image _env_desktop-icon-web"></div>
+			<p class="_env_desktop-element-title">Enver</p>
+		</div>
+		
+		<div class="_env_desktop-element" ftype="web" fname="Calculadora Solar" wsize="565,720" wpos="center" fcontent="https://calculadora.enver.es/">
+			<div class="_env_desktop-element-image _env_desktop-icon-web"></div>
+			<p class="_env_desktop-element-title">Calculadora Solar</p>
+		</div>
+		
+	<div id="taskbar" class="_env_taskbar">
+		
+		<div class="_env_taskbar-side">
+			<div class="taskbar-icon">
+				<div class="_env_taskbar-icon" style="background-image: url('/desktop-environment/src/code.png')" ttip="Programming"></div>
+			</div>
+			<div class="taskbar-icon">
+				<div class="_env_taskbar-icon" style="background-image: url('/desktop-environment/src/music.png')" ttip="Music"></div>
+			</div>
+			<div class="taskbar-icon">
+				<div class="_env_taskbar-icon" style="background-image: url('/desktop-environment/src/images.png')" ttip="Images"></div>
+			</div>
+		</div>
+		
+		<div id="taskbar-apps" class="_env_taskbar-apps" ttip="Apps"></div>
+		
+		<div class="_env_taskbar-side">
+			<div class="taskbar-icon">
+				<div class="_env_taskbar-icon" style="background-image: url('/desktop-environment/src/folder.png')" ttip="File Explorer"></div>
+			</div>
+			<div class="taskbar-icon">
+				<div class="_env_taskbar-icon" style="background-image: url('/desktop-environment/src/readings.png')" ttip="Readings"></div>
+			</div>
+			<div class="taskbar-icon">
+				<div class="_env_taskbar-icon" style="background-image: url('/desktop-environment/src/contact.png')" ttip="Contact"></div>
+			</div>
+		</div>
+		
+		<div id="apps-menu" class="_env_taskbar-apps-menu">
+			
+			<div class="_env_desktop-element" ftype="godot" fname="Perium.app" wsize="full" wpos="center" fcontent="perium/perium.html">
+				<div class="_env_desktop-element-image _env_desktop-icon-godot"></div>
+				<p class="_env_desktop-element-title">Perium.app</p>
+			</div>
+			
+			<div class="_env_desktop-element" ftype="web" fname="Chess.app" wsize="635,705" wpos="center" fcontent="chess/index.html">
+				<div class="_env_desktop-element-image _env_desktop-icon-web"></div>
+				<p class="_env_desktop-element-title">Chess.app</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	<script>
+		// On window.onload, console.log the width of the taskbar
+		window.onload = function() {
+			initializeTooltips();
+			initializeDesktop();
+			initializeWindowCanvas();
+		}
+	</script>
+	</body>
+</html>
